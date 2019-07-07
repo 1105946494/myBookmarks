@@ -4,6 +4,7 @@ kbd{border: 1px solid red;width:4em; height: 4em; display: inline-block; text-tr
 kbd > button{position: absolute; right: 0; bottom: 0; display: none; }
 kbd:hover > button{display: inline-block; }
 body{background: grey url(./图片.jpg) no-repeat center center; }
+body{background-size:cover;}
 main{text-align: center; display: flex; justify-content: center; align-items: center; height: 100vh; }
 #main{display: inline-block;; }
 #main> div:nth-child(2){margin-left: -22px; }
