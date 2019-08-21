@@ -1,0 +1,13 @@
+$('.xx').hide()
+$('.anniu').on('click',function(e){
+    $('.xx').toggle()
+    e.stopPropagation()
+    console.log('show')
+})
+$('.xx').on('click',function(e){
+    e.stopPropagation()
+})
+$(window).on('click',function(){
+    $('.xx').hide()
+    console.log('hide')
+})
